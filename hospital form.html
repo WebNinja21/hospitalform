@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lalitha Super Specialities Hospital/Patient Questionnaire Form</title>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        box-sizing: border-box;
+    }
+
+    body{
+        background: url("https://tse2.mm.bing.net/th?id=OIP.Y8jH0H_irw5af-rK4myVMAHaLH&pid=Api&P=0");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+       margin-bottom: 40px;
+        flex-direction: column;
+       margin-left: 60px;
+       margin-right: 50px;
+    }
+
+    input{
+        margin: 10px;
+        border:none;
+        border-bottom: 2px solid white;
+        border-radius: 10%;
+        background: #ffff( 255,255,255,0.1);
+       
+       
+    }
+
+    .img{
+       float: left top;
+       margin-left: 6%;
+       margin-right: 6%;
+       margin-top: 7%;
+       display: flex;
+       justify-content: space-between; gap:15%;
+    }
+
+    h3{
+        color: white;
+        font-size: 18px;
+        padding-left: 30px;
+        padding-right: 25px;
+        padding-top: 15px;
+        text-align: left;
+    }
+
+    h2{
+        color: white;
+        font-size: 25px;
+       padding-top: 60px;
+       padding-right: 60px;
+       
+    }
+
+    h6{
+        color: white;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .main{
+      
+        border: 2px solid white;
+        margin-left: 6%;
+       margin-right: 7%;
+       display:list-item;
+       background: #ffff( 255,255,255,0.3);
+    }
+
+    #r1{
+        display: flex;
+        justify-content: space-between; gap:15%;
+      
+    }
+    
+    h5{
+        color: white;
+        font-size: 21px;
+        text-align: center;
+    }
+
+    pre{
+        color: white;
+        padding-left: 60px;
+        font-size: 18px;
+    }
+
+    th{
+        color:white;
+    }
+
+    .submit{
+        margin: 4px 4px 4px 24px;
+        text-align: center;
+        width: 200px;
+        padding: 5px;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: sans-serif;
+        border-radius: 30px;
+        background-color: rgb(250,100,0,0.8);
+        color: #ffff;
+        cursor: pointer;
+        border: 1px solid  rgb(250,100,0,0.3);
+        box-shadow: 1px 1px 5px rgb(0,0,0,0.3);
+    }
+
+</style>
+</head>
+<body>
+<div class="img">
+<div><img src="https://www.lalithahospitals.com/images/logo.png" ></div>
+<div><h2>Patient Registration Form</h2></div>
+</div>
+
+<div class="main">
+    <table>
+        <tr id="r1">
+            <h3>Patient's Name (Last, First, MI):<input type="text" name="Patient's Name" placeholder="Patient's Name"></h3>
+            <h3>Patient's Home Phone Number: <input type="text" name="number" placeholder="Patient's Home Phone Number:">
+           Alternate Phone Number(<input type="checkbox" placeholder="Cell ">Cell  or <input type="checkbox" placeholder="work">work) : <input type="text" placeholder="Alternate Phone Number"></h3> 
+        </tr>
+        <hr>
+        <tr id="r2">
+            <h3>E-Mail  Address:<input type="email" placeholder="E-Mail  Address:"></h3>
+        </tr>
+        <hr>
+        <tr id="r3"> 
+           <h3>Address:<input type="text" name="adderss" placeholder="Address:">      Apt.#<input type="text" placeholder="Apt.#"></h3> 
+           <h3>City:<input type="text" name="city" placeholder="City:">        State:<input type="text"  name=" state" placeholder=" State:">      Zip:<input type="text" name="zip" placeholder="Zip:"> </h3> 
+        </tr>
+        <hr>
+        <tr id="r3">
+            <h3>Date of Birth:<input type="text" name="DoB" placeholder="Date of Birth:">    Age:<input type="text" name="age" placeholder="Age:">Sex:<input type="checkbox" >Male or<input type="checkbox">Female&nbsp;&nbsp;Social Security Number:<input type="text" name="" placeholder="Social Security Number:"></h3> 
+        </tr>
+        <hr>
+        <tr id="r3">
+            <h3>Marital Status:<input type="checkbox">Married    <input type="checkbox"> Single      <input type="checkbox"> Divorced    <input type="checkbox"> Widowed 
+        </tr>
+        <hr>
+        <tr id="r3">
+            <th><h3>Patient's Employer:<input type="text" name="employer" placeholder=""></h3></th>
+            <th><h3>Employment Status:<input type="checkbox"> Full time     <input type="checkbox">Part time    <input type="checkbox"> Unemployed<br>    <input type="checkbox">Retired      <input type="checkbox">Student     <input type="checkbox">Other:<input type="text" name="other" placeholder=""><br><br><br></h3></th>
+        </tr>
+        <tr id="r1">
+            <h3>Emergency Contact:<input type="text" name="emg contact" placeholder="Emergency Contact">     Relationship to Patient:<input type="text" name="emg contact" placeholder="Relationship to Patient"><br>Address:<input type="text" name="adderss" placeholder="Address:">       Phone Number: <input type="text" name="number" placeholder="Patient's Home Phone Number:"></h3>
+        </tr>
+        <tr id="r3">
+            <th>
+                INSURANCE INFORMATION
+            </th>
+            <hr>
+            <td>
+                <h3>Primary Insurance:<input type="text" name="insurance" placeholder=""><br>Patient is Subscriber/Policy Holder:<input type="checkbox" placeholder="Y">Yes    <input type="checkbox" placeholder="X">No   <br><br><br>   Secondary Insurance:<input type="text" name="insurance" placeholder=""><br>Patient is Subscriber/Policy Holder:<input type="checkbox" placeholder="Y">Yes    <input type="checkbox" placeholder="X">No</h3>
+            </td>
+        </tr>
+
+        
+        <br>
+        <h5>INSURED INFORMATION (IF OTHER THAN PATIENT) - We will request to scan your ID and insurance card</h5>
+        <br>
+        <br>
+        <h3>Subscriber/ Policy Holder:<input type="text" name="insurance" placeholder="">       Relationship to Patient:<input type="text" name="insurance" placeholder=""> <br>Address:<input type="text" name="" placeholder=""><br>Social Security Number:<input type="text" name="insurance" placeholder=""><br>Date of Birth:<input type="text" name="insurance" placeholder=""><br>His or Her Employer:<input type="text" name="insurance" placeholder="">     Work Phone Number:<input type="text" name="insurance" placeholder="">  </h3>
+    </table>
+    <table>
+        <tr>
+        <hr>
+        <br>
+        <h5>RELEASE OF INFORMATION</h5>
+        <br>
+        <br>
+        <h6>I hereby give permission to the person(s) listed below to receive information about the care of the above named patient</h6>
+        <br>
+        <h3>Name(s):<input type="text" name="insurance" placeholder="">   &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;          Relationship to Patient:<input type="text" name="insurance" placeholder="">  </h3>
+    </tr>
+    </table>
+    <hr>
+    <br>
+    <br>
+    <pre>Inova Medical Group reserves the right to charge a fee for any scheduled visits that are:
+        1. Cancelled with less than 24 hours notice
+        2. Are missed without calling to cancel ( no show)
+        Cancellation Fee schedule: New Patient $50.00; Established Patient: $35.00</pre>
+        <br>
+        <br>
+        <h3>Patient / Parent or Guardian Signature:<input type="text" name="" placeholder=""> &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;Date:<input type="text" name="insurance" placeholder=""></h3>
+        <br>
+    </div>
+    <br>
+    <br>
+    <center><input type="submit" value="submit"  id="submit" class="submit" ></center>
+</body>
+</html>
